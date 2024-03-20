@@ -19,6 +19,7 @@ public class Controller : MonoBehaviour
 
     // Other Variables
     public Rigidbody2D rb;
+    public Animator animator;
     public Camera cam;
 
     Vector2 movement;
@@ -43,6 +44,10 @@ public class Controller : MonoBehaviour
         // VVV this theoretically allows movement AND collision
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
 
         // [WEAPON ROTATION] -----------------------------------------------------------------
         /// VVV this code allows the weapon to point in the direction of the mouse (BROKEN)

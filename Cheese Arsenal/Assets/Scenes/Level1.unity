@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -290,8 +290,9 @@ GameObject:
   - component: {fileID: 603087396}
   - component: {fileID: 603087397}
   - component: {fileID: 603087398}
+  - component: {fileID: 603087399}
   m_Layer: 0
-  m_Name: mouse_player_frame_1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -316,6 +317,7 @@ MonoBehaviour:
   projectile: {fileID: 4539344021406845801, guid: 9704323cba7f87b458ba5aae735ca8b7, type: 3}
   timeBetweenShots: 0.01
   rb: {fileID: 603087396}
+  animator: {fileID: 603087399}
   cam: {fileID: 963194227}
 --- !u!212 &603087394
 SpriteRenderer:
@@ -358,7 +360,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3a143dd029fcce54ebe1d935ec544ad2, type: 3}
+  m_Sprite: {fileID: -124533689, guid: 620e9bd9770c97f468d4be77e62a30b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -412,7 +414,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &603087397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,6 +444,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitEffect: {fileID: 4539344021406845801, guid: 9704323cba7f87b458ba5aae735ca8b7, type: 3}
   damage: 1
+--- !u!95 &603087399
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603087392}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 33a4b4e1b9ada1c46a57d54824a0ed29, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +527,7 @@ Camera:
   far clip plane: 870.82
   field of view: 60
   orthographic: 1
-  orthographic size: 2.5
+  orthographic size: 1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

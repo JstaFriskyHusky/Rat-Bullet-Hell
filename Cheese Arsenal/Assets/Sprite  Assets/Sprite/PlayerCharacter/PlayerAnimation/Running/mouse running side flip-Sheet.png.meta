@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 620e9bd9770c97f468d4be77e62a30b4
+guid: d5fd2ff4758a4834fbca05d1448a4590
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse-Sheet_0
+      name: mouse running side flip-Sheet_0
       rect:
         serializedVersion: 2
-        x: 8
+        x: 16
         y: 10
-        width: 24
-        height: 32
+        width: 20
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57f937ff8b2466447a6ebfd9daaa909b
-      internalID: -124533689
+      spriteID: d9dbdec079fd30546af7a6c8f21fddb6
+      internalID: -13006113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet_1
+      name: mouse running side flip-Sheet_1
       rect:
         serializedVersion: 2
-        x: 56
+        x: 63
         y: 10
-        width: 24
-        height: 32
+        width: 19
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8098a4a77e04179469867540e19766b4
-      internalID: 1320199375
+      spriteID: 3a7872ee0f9b31242a5f931b907fbc22
+      internalID: -1050175396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet_2
+      name: mouse running side flip-Sheet_2
       rect:
         serializedVersion: 2
-        x: 104
+        x: 111
         y: 10
-        width: 24
-        height: 32
+        width: 19
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e292941f106ef8a4db5c934b7897e770
-      internalID: -985929767
+      spriteID: ae54813787b3fd34ba404269580662ef
+      internalID: 1001458976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet_3
+      name: mouse running side flip-Sheet_3
       rect:
         serializedVersion: 2
-        x: 152
+        x: 160
         y: 10
-        width: 24
-        height: 32
+        width: 20
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 336d7699c008bdc4bb556b3f22b3620e
-      internalID: 190131510
+      spriteID: 78bf5ce035f86ab4886d8d4608973e6a
+      internalID: 1775430112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet_4
+      name: mouse running side flip-Sheet_4
       rect:
         serializedVersion: 2
-        x: 200
+        x: 207
         y: 10
-        width: 24
-        height: 32
+        width: 21
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +221,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e97d7bcac08f1e141babd87c91a41cbc
-      internalID: 934896142
+      spriteID: b04be64a8ef349b419564df8f26ab109
+      internalID: 1100158605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse running side flip-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 10
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a646142d1232c45b2f528a49a9d993
+      internalID: 2023181843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse running side flip-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 10
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3749d6a6e8e040b4e88eac4f2d622dd3
+      internalID: -1333725219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse running side flip-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 10
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05d6f6311f332844a8315b1274c284f
+      internalID: -1376742338
       vertices: []
       indices: 
       edges: []
@@ -230,7 +293,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 94e685f7d7616464c8b58d77ec5bdfd0
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse-Sheet_0: -124533689
-      mouse-Sheet_1: 1320199375
-      mouse-Sheet_2: -985929767
-      mouse-Sheet_3: 190131510
-      mouse-Sheet_4: 934896142
+      mouse running side flip-Sheet_0: -13006113
+      mouse running side flip-Sheet_1: -1050175396
+      mouse running side flip-Sheet_2: 1001458976
+      mouse running side flip-Sheet_3: 1775430112
+      mouse running side flip-Sheet_4: 1100158605
+      mouse running side flip-Sheet_5: 2023181843
+      mouse running side flip-Sheet_6: -1333725219
+      mouse running side flip-Sheet_7: -1376742338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -664,7 +664,7 @@ MonoBehaviour:
   bullet: {fileID: 4539344021406845801, guid: 9704323cba7f87b458ba5aae735ca8b7, type: 3}
   bulletTransform: {fileID: 2106971976}
   canFire: 1
-  timeBetweenFiring: 1
+  timeBetweenFiring: 0.5
   characterRender: {fileID: 603087394}
   weaponRender: {fileID: 2106971977}
 --- !u!1 &1383164576

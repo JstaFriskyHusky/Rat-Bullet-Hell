@@ -28,9 +28,24 @@ public class Projectile : MonoBehaviour
 
 
     }
+    
+    // Trigger damage on colliding with enemy
+    void OnTriggerEnter2D(Collider2D hitInfo)   
+    { 
+        Debug.Log(hitInfo.name);
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        if (enemy != null) {
+            enemy.TakeDamage(damage);
+        }
+        Destroy(gameObject);
+    }
 
-    void Update()
+    // Collide with anything, create an effect and despawn
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+        Destroy(effect, 0.1f);
+        Destroy(gameObject);
+
     }
 }

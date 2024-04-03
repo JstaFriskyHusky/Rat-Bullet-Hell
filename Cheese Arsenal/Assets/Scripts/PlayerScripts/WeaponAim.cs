@@ -12,11 +12,12 @@ public class WeaponAim : MonoBehaviour
     private float timer;
     public float timeBetweenFiring;
     public SpriteRenderer characterRender, weaponRender;
+    public Animator animator;
 
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-        
+        animator = gameObject.GetComponent<Animator>();
     }
 
     void Update()
@@ -28,6 +29,9 @@ public class WeaponAim : MonoBehaviour
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
 
         transform.rotation = Quaternion.Euler(0, 0, rotZ);    
+
+        
+       
 
         if (!canFire)
         {   
@@ -43,6 +47,7 @@ public class WeaponAim : MonoBehaviour
         {
             canFire = false;
             Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+            animator.SetBool("Shooting", false); 
         }
     
         Vector3 direction = (mousePos - (Vector3)transform.position).normalized;
@@ -66,4 +71,6 @@ public class WeaponAim : MonoBehaviour
             weaponRender.sortingOrder = characterRender.sortingOrder + 1;
         }
     }
+
+
 }

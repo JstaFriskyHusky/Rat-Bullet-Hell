@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
     public GameObject hitEffect;
+    public int damage;
 
     void Start()
     {

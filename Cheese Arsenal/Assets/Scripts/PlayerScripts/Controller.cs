@@ -8,6 +8,7 @@ public class Controller : MonoBehaviour
     public float speed;
     public Transform weapon;
     public float offset;
+    bool facingRight;
 
     // Weapon Movement Variables
     public Transform shotPoint;
@@ -21,6 +22,7 @@ public class Controller : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public Camera cam;
+   
 
     Vector2 movement;
     Vector2 mousePos;
@@ -44,8 +46,20 @@ public class Controller : MonoBehaviour
         // VVV this theoretically allows movement AND collision
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+        
 
-        animator.SetFloat("Horizontal", movement.x);
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        
+        if(mousePos.x > transform.position.x && facingRight)
+        {
+            flip();
+        }
+        else if (mousePos.x < transform.position.x && !facingRight)
+        {
+            flip();
+        }
+
+        animator.SetFloat("Horizontal", Mathf.Abs(movement.x));
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
@@ -57,7 +71,7 @@ public class Controller : MonoBehaviour
         weapon.rotation = Quaternion.Euler(0f, 0f, angle + offset);
         */
 
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        
         
         // SHOT DELAY ------------------------------------------------------------------------
         /*
@@ -72,11 +86,19 @@ public class Controller : MonoBehaviour
         */
     }
 
+
     void FixedUpdate()
     {
         // Player movement updating
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
-
+       
 
     }
+
+    void flip()
+    {
+        facingRight = !facingRight;
+        transform.Rotate(0f,180f,0f);
+    }
+    
 }

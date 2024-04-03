@@ -37,16 +37,19 @@ public class Projectile : MonoBehaviour
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null) {
             enemy.TakeDamage(damage);
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+
     }
 
     // Collide with anything, create an effect and despawn
     void OnCollisionEnter2D(Collision2D collision)
     {
-        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        Destroy(effect, 0.1f);
-        Destroy(gameObject);
-
+        if (!collision.gameObject.CompareTag("Player") || !collision.gameObject.CompareTag("Collectible")) 
+        {
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 0.1f);
+            Destroy(gameObject);
+        }
     }
 }

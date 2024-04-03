@@ -17,7 +17,7 @@ public class WeaponAim : MonoBehaviour
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
-        animator = gameObject.GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -30,7 +30,10 @@ public class WeaponAim : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(0, 0, rotZ);    
 
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            animator.SetTrigger("Shooting");
+        }
        
 
         if (!canFire)

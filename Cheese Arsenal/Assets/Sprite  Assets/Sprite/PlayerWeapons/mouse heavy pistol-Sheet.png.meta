@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4b08866b39704784e8ac936b8ebed05d
+guid: ce384c964211a7b47829b7a379408f45
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4087ccb698dd154396114fa0874d2d8
-      internalID: 1867756446
+      spriteID: 685ec599c5cb1f94286459a49450273c
+      internalID: -2042299775
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e16a2d2de5d80e243a26a6481d11c8f2
-      internalID: -1665903666
+      spriteID: 007c567adfbe24b40beb9073a986a372
+      internalID: 1093820367
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a84d007a14036b458543ca47011ac9f
-      internalID: 546721009
+      spriteID: 4c12d0f427e85eb449532f4d21f2c779
+      internalID: 982403200
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 356b057d7d4b1bd43a800766484a0b2d
-      internalID: 703678819
+      spriteID: 783ae41f4be63ae46919d0dfdd5efe30
+      internalID: 273832684
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d85647c7f725007419cd17721f223778
-      internalID: -702897038
+      spriteID: a43f233c7ea10b04b924914be4f866d3
+      internalID: -1951595780
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f5b5a39455f47df4990819bbeabe7ad5
+    spriteID: dbb5810f69c6e7c41b2d6337b33a6ecd
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse heavy pistol-Sheet_0: 1867756446
-      mouse heavy pistol-Sheet_1: -1665903666
-      mouse heavy pistol-Sheet_2: 546721009
-      mouse heavy pistol-Sheet_3: 703678819
-      mouse heavy pistol-Sheet_4: -702897038
+      mouse heavy pistol-Sheet_0: -2042299775
+      mouse heavy pistol-Sheet_1: 1093820367
+      mouse heavy pistol-Sheet_2: 982403200
+      mouse heavy pistol-Sheet_3: 273832684
+      mouse heavy pistol-Sheet_4: -1951595780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -10,6 +10,8 @@ public class Projectile : MonoBehaviour
     public float force;
     public GameObject hitEffect;
     public int damage;
+    public float destroyTime;
+    
 
     void Start()
     {
@@ -28,6 +30,15 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject);
 
 
+    }
+
+    void Update()
+    {
+        destroyTime -= Time.deltaTime;
+        if (destroyTime <= 0)
+        {
+            Destroy(this.gameObject);
+        }
     }
     
     // Trigger damage on colliding with enemy

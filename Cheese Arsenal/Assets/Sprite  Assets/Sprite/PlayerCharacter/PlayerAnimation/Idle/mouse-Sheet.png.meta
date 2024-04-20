@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 620e9bd9770c97f468d4be77e62a30b4
+guid: 127462395d2610a41b067738889db3c1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -123,106 +123,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse-Sheet_0
+      name: mouse-Sheet 1_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 10
-        width: 24
-        height: 32
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57f937ff8b2466447a6ebfd9daaa909b
-      internalID: -124533689
+      spriteID: f6fb78e278f6077489fb3910252bba93
+      internalID: 26635022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet_1
+      name: mouse-Sheet 1_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 10
-        width: 24
-        height: 32
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8098a4a77e04179469867540e19766b4
-      internalID: 1320199375
+      spriteID: 23255fef94a01d34eae31b615f1c69f6
+      internalID: 1194351936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet_2
+      name: mouse-Sheet 1_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 10
-        width: 24
-        height: 32
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e292941f106ef8a4db5c934b7897e770
-      internalID: -985929767
+      spriteID: 9399ad529d3aaf3408f3e19d5745a1ca
+      internalID: -421968663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet_3
+      name: mouse-Sheet 1_3
       rect:
         serializedVersion: 2
-        x: 152
-        y: 10
-        width: 24
-        height: 32
+        x: 144
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 336d7699c008bdc4bb556b3f22b3620e
-      internalID: 190131510
+      spriteID: c8aa30dddae79484da528ec54bfa0c74
+      internalID: 2122608420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet_4
+      name: mouse-Sheet 1_4
       rect:
         serializedVersion: 2
-        x: 200
-        y: 10
-        width: 24
-        height: 32
+        x: 192
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e97d7bcac08f1e141babd87c91a41cbc
-      internalID: 934896142
+      spriteID: 4c0cc534397ca064a8fcf7336f99ca18
+      internalID: 513673739
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 8a2614fadde83ba47bb4da8a0377c428
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse-Sheet_0: -124533689
-      mouse-Sheet_1: 1320199375
-      mouse-Sheet_2: -985929767
-      mouse-Sheet_3: 190131510
-      mouse-Sheet_4: 934896142
+      mouse-Sheet 1_0: 26635022
+      mouse-Sheet 1_1: 1194351936
+      mouse-Sheet 1_2: -421968663
+      mouse-Sheet 1_3: 2122608420
+      mouse-Sheet 1_4: 513673739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

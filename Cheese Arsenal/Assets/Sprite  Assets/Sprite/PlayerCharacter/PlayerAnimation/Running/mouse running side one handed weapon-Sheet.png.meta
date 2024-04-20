@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f95685a27daf0e147af455a357c5d06e
+guid: 62bfd815e81a0b044aeec05abf13fa1e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a854de7b55bc9d47b4868e26da7a979
-      internalID: -1098217276
+      spriteID: 067125ed6372ebf449ae3fbe68593187
+      internalID: 26726980
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bc441d66da9cb9459b01a4cf247d5fb
-      internalID: 272540048
+      spriteID: 7d936a69111e92b45a35aa2b2530a0dc
+      internalID: 1960601209
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74c2d83561c15be4ab2ba481376b1869
-      internalID: 1389753732
+      spriteID: 499f69c393b30b04cbe6dbf9f3db33df
+      internalID: -1752013090
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac78e2a7f1d5e5b409b26a48bfea02aa
-      internalID: 1994076910
+      spriteID: 32725e9bba29df5419673ddfca78a275
+      internalID: -1362426715
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0eede5ac65f49a4096583a1475993c4
-      internalID: -482857030
+      spriteID: fbc8765d87d150b4388def00c4324c80
+      internalID: -586495472
       vertices: []
       indices: 
       edges: []
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a58f233f0e766d43be57b6cfd8fb6c5
-      internalID: -459609275
+      spriteID: 45283fce60658e241965ced34ad10bd3
+      internalID: 1250475371
       vertices: []
       indices: 
       edges: []
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40a041573bd336749b3aad0d67cb4fb6
-      internalID: -1184942324
+      spriteID: d3c9088d95d35db4d96cda280cbc20e6
+      internalID: 645173753
       vertices: []
       indices: 
       edges: []
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e74d937dd01f86240aaabebaeb461e4c
-      internalID: 763693885
+      spriteID: f992e352eeca0164894d57e7df916992
+      internalID: -540527312
       vertices: []
       indices: 
       edges: []
@@ -293,7 +293,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: df109f7600ae6894eb2767a126818857
+    spriteID: e4da669e9cbac3f459b0a5f5644e7a51
     internalID: 0
     vertices: []
     indices: 
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse running side one handed weapon-Sheet_0: -1098217276
-      mouse running side one handed weapon-Sheet_1: 272540048
-      mouse running side one handed weapon-Sheet_2: 1389753732
-      mouse running side one handed weapon-Sheet_3: 1994076910
-      mouse running side one handed weapon-Sheet_4: -482857030
-      mouse running side one handed weapon-Sheet_5: -459609275
-      mouse running side one handed weapon-Sheet_6: -1184942324
-      mouse running side one handed weapon-Sheet_7: 763693885
+      mouse running side one handed weapon-Sheet_0: 26726980
+      mouse running side one handed weapon-Sheet_1: 1960601209
+      mouse running side one handed weapon-Sheet_2: -1752013090
+      mouse running side one handed weapon-Sheet_3: -1362426715
+      mouse running side one handed weapon-Sheet_4: -586495472
+      mouse running side one handed weapon-Sheet_5: 1250475371
+      mouse running side one handed weapon-Sheet_6: 645173753
+      mouse running side one handed weapon-Sheet_7: -540527312
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

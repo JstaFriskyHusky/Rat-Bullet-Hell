@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9689be1a6b7357645998e2a3f0ced1e6
+guid: 210177ea922516c48bff20b482ad3b5e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,12 +123,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse one hand weapon idle-Sheet_0
+      name: mouse type 56 idle-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
+        width: 64
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -137,19 +137,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9651512596469d4ba0a949197520fec
-      internalID: -1637433137
+      spriteID: 4b3add1a1747b514087569333318dad6
+      internalID: 136431278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse one hand weapon idle-Sheet_1
+      name: mouse type 56 idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 0
-        width: 48
+        width: 64
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -158,19 +158,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c4df05ba0c688341bb4f6d6c99ad4a8
-      internalID: 1268492294
+      spriteID: f6bf093edb6104945a7570982feb4728
+      internalID: -1126924491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse one hand weapon idle-Sheet_2
+      name: mouse type 56 idle-Sheet_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 128
         y: 0
-        width: 48
+        width: 64
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -179,40 +179,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1c0deccbb19ddc4a996f991bb7555ab
-      internalID: 1582762065
+      spriteID: e4451704905eab241a1420607a4018ee
+      internalID: -1950718451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse one hand weapon idle-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6ff06af80adb974ea961ecd22dca550
-      internalID: 498081150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse one hand weapon idle-Sheet_4
+      name: mouse type 56 idle-Sheet_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 48
+        width: 64
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,8 +200,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12c668c0058d56f4a948b7d62aae0d96
-      internalID: -934255291
+      spriteID: 23e55055cd705f0438c886cbcba561d3
+      internalID: 675040517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse type 56 idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d521533e2b63be42a2f4f0d48244868
+      internalID: -840602323
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c32672def7a3f61489fffb0cfe0ef044
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse one hand weapon idle-Sheet_0: -1637433137
-      mouse one hand weapon idle-Sheet_1: 1268492294
-      mouse one hand weapon idle-Sheet_2: 1582762065
-      mouse one hand weapon idle-Sheet_3: 498081150
-      mouse one hand weapon idle-Sheet_4: -934255291
+      mouse type 56 idle-Sheet_0: 136431278
+      mouse type 56 idle-Sheet_1: -1126924491
+      mouse type 56 idle-Sheet_2: -1950718451
+      mouse type 56 idle-Sheet_3: 675040517
+      mouse type 56 idle-Sheet_4: -840602323
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

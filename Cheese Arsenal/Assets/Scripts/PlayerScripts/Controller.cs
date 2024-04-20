@@ -22,7 +22,6 @@ public class Controller : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     public Camera cam;
-   
 
     Vector2 movement;
     Vector2 mousePos;
@@ -33,6 +32,7 @@ public class Controller : MonoBehaviour
         
     }
 
+    
 
     void Update()
     {

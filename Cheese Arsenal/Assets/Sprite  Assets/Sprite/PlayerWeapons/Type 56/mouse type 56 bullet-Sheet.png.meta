@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 255e05dad00a11848a47ca3431154a38
+guid: e5882be39cd42dc45b0757b0f3457a8c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,112 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: mouse flip-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 10
-        width: 24
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00e2289296ea52d44bbc0a363db72903
-      internalID: 710224062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse flip-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 10
-        width: 24
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11b3507de6a1aa34aad0ffa92514c0d0
-      internalID: -701389493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse flip-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 10
-        width: 24
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1999e99eb431e8e4683dd481f448fd94
-      internalID: -648342921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse flip-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 10
-        width: 24
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b47264cfcf39da40a7004b22489b764
-      internalID: -988322751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse flip-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 10
-        width: 24
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bae274b96c941b0429ecb17c05549722
-      internalID: -1020711733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -237,12 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      mouse flip-Sheet_0: 710224062
-      mouse flip-Sheet_1: -701389493
-      mouse flip-Sheet_2: -648342921
-      mouse flip-Sheet_3: -988322751
-      mouse flip-Sheet_4: -1020711733
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

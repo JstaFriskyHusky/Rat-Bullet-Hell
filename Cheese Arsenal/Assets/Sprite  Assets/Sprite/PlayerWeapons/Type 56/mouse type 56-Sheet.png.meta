@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6ed5f497391c6ad478a4df74c0959489
+guid: 06093a39a98c0d44fb526110184e7c0a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -123,12 +123,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse heavy pistol idle-Sheet 1_0
+      name: mouse type 56-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
+        width: 64
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -137,19 +137,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 413dadecf87329c4b8124e666762dd0b
-      internalID: -1393852094
+      spriteID: f4d2854282bec354e9b67aa5cdae102c
+      internalID: 1801268897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse heavy pistol idle-Sheet 1_1
+      name: mouse type 56-Sheet_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 64
         y: 0
-        width: 48
+        width: 64
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -158,19 +158,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8539bc37d4acaa8468e5c7956876ac70
-      internalID: -603901107
+      spriteID: 6cb79a7bc0ba6124db79d09c5f3c86d8
+      internalID: -1583065586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse heavy pistol idle-Sheet 1_2
+      name: mouse type 56-Sheet_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 128
         y: 0
-        width: 48
+        width: 64
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -179,40 +179,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1565f670f270e9f419dd8b274067619f
-      internalID: -1213849765
+      spriteID: a181a5d639fe81743bd6b0ba623e2cbb
+      internalID: -733195328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse heavy pistol idle-Sheet 1_3
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a0dde49e456bd0458a19d6ddbfe6daa
-      internalID: 1702519949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse heavy pistol idle-Sheet 1_4
+      name: mouse type 56-Sheet_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 48
+        width: 64
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,8 +200,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cb66cfd3a1e30b4ba652c45b4adb2ef
-      internalID: 1683447574
+      spriteID: 50b4db7e88b63bb44b7bfda9dc696b1d
+      internalID: 1275164608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse type 56-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f41a1efa986ede4f85ea292e7c090f9
+      internalID: 1582451102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouse type 56-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5eafa8816f17248b383436901b4436
+      internalID: 1157305293
       vertices: []
       indices: 
       edges: []
@@ -230,7 +251,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f2dd487de0cde524d84011d185a09c9d
+    spriteID: 3ccc23c9ad6999345a82eee91692cfb9
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse heavy pistol idle-Sheet 1_0: -1393852094
-      mouse heavy pistol idle-Sheet 1_1: -603901107
-      mouse heavy pistol idle-Sheet 1_2: -1213849765
-      mouse heavy pistol idle-Sheet 1_3: 1702519949
-      mouse heavy pistol idle-Sheet 1_4: 1683447574
+      mouse type 56-Sheet_0: 1801268897
+      mouse type 56-Sheet_1: -1583065586
+      mouse type 56-Sheet_2: -733195328
+      mouse type 56-Sheet_3: 1275164608
+      mouse type 56-Sheet_4: 1582451102
+      mouse type 56-Sheet_5: 1157305293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

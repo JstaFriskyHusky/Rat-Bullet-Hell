@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d5fd2ff4758a4834fbca05d1448a4590
+guid: 6ed5f497391c6ad478a4df74c0959489
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -70,7 +70,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -123,169 +123,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse running side flip-Sheet_0
+      name: mouse heavy pistol idle-Sheet_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 10
-        width: 20
-        height: 30
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9dbdec079fd30546af7a6c8f21fddb6
-      internalID: -13006113
+      spriteID: 82737ded8e1c4d9408c995de0fd1a9b2
+      internalID: 1521087376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side flip-Sheet_1
+      name: mouse heavy pistol idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 10
-        width: 19
-        height: 31
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a7872ee0f9b31242a5f931b907fbc22
-      internalID: -1050175396
+      spriteID: 0d50d4ee450b02144bcb1f611b1ef6b7
+      internalID: 777352433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side flip-Sheet_2
+      name: mouse heavy pistol idle-Sheet_2
       rect:
         serializedVersion: 2
-        x: 111
-        y: 10
-        width: 19
-        height: 31
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae54813787b3fd34ba404269580662ef
-      internalID: 1001458976
+      spriteID: 01c0170a26f5e0e40bf9bc081a051b10
+      internalID: 1297669331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side flip-Sheet_3
+      name: mouse heavy pistol idle-Sheet_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 10
-        width: 20
-        height: 31
+        x: 144
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78bf5ce035f86ab4886d8d4608973e6a
-      internalID: 1775430112
+      spriteID: 8472dd6f0e864f94187f6a46700e3e10
+      internalID: -1952135790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side flip-Sheet_4
+      name: mouse heavy pistol idle-Sheet_4
       rect:
         serializedVersion: 2
-        x: 207
-        y: 10
-        width: 21
-        height: 31
+        x: 192
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b04be64a8ef349b419564df8f26ab109
-      internalID: 1100158605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse running side flip-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 10
-        width: 23
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6a646142d1232c45b2f528a49a9d993
-      internalID: 2023181843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse running side flip-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 10
-        width: 23
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3749d6a6e8e040b4e88eac4f2d622dd3
-      internalID: -1333725219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse running side flip-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 10
-        width: 21
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d05d6f6311f332844a8315b1274c284f
-      internalID: -1376742338
+      spriteID: f369e1f286ec9b44cbc3697fa89744bd
+      internalID: 683264973
       vertices: []
       indices: 
       edges: []
@@ -293,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 94e685f7d7616464c8b58d77ec5bdfd0
+    spriteID: f2dd487de0cde524d84011d185a09c9d
     internalID: 0
     vertices: []
     indices: 
@@ -301,14 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse running side flip-Sheet_0: -13006113
-      mouse running side flip-Sheet_1: -1050175396
-      mouse running side flip-Sheet_2: 1001458976
-      mouse running side flip-Sheet_3: 1775430112
-      mouse running side flip-Sheet_4: 1100158605
-      mouse running side flip-Sheet_5: 2023181843
-      mouse running side flip-Sheet_6: -1333725219
-      mouse running side flip-Sheet_7: -1376742338
+      mouse heavy pistol idle-Sheet_0: 1521087376
+      mouse heavy pistol idle-Sheet_1: 777352433
+      mouse heavy pistol idle-Sheet_2: 1297669331
+      mouse heavy pistol idle-Sheet_3: -1952135790
+      mouse heavy pistol idle-Sheet_4: 683264973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 127462395d2610a41b067738889db3c1
+guid: 27816d93ece51724bb5173ff496317b5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6fb78e278f6077489fb3910252bba93
-      internalID: 26635022
+      spriteID: 9f3994a0e6ddf9444a931883bccb9745
+      internalID: -681273948
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23255fef94a01d34eae31b615f1c69f6
-      internalID: 1194351936
+      spriteID: dee8b1295b7c1614e84d4137a00829ae
+      internalID: -530681712
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9399ad529d3aaf3408f3e19d5745a1ca
-      internalID: -421968663
+      spriteID: 834a8eab1dc6e174cb826a88ad0a6819
+      internalID: 914237679
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8aa30dddae79484da528ec54bfa0c74
-      internalID: 2122608420
+      spriteID: 000e88b40a9ea53419b39e030a075c4b
+      internalID: 1226309853
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0cc534397ca064a8fcf7336f99ca18
-      internalID: 513673739
+      spriteID: 3a16099e4abafb749bbb3702ca303180
+      internalID: 84380554
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8a2614fadde83ba47bb4da8a0377c428
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse-Sheet 1_0: 26635022
-      mouse-Sheet 1_1: 1194351936
-      mouse-Sheet 1_2: -421968663
-      mouse-Sheet 1_3: 2122608420
-      mouse-Sheet 1_4: 513673739
+      mouse-Sheet 1_0: -681273948
+      mouse-Sheet 1_1: -530681712
+      mouse-Sheet 1_2: 914237679
+      mouse-Sheet 1_3: 1226309853
+      mouse-Sheet 1_4: 84380554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

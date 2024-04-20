@@ -8,12 +8,10 @@ public class WeaponAim : MonoBehaviour
     private Vector3 mousePos;
     
     public GameObject bullet;
-    public Transform gunPoint;
+    public Transform gunPoint, aimTransform;
     public bool canFire;
     private float timer;
     public float timeBetweenFiring, spread;
-
-
 
 
     public SpriteRenderer characterRender, weaponRender;
@@ -24,6 +22,11 @@ public class WeaponAim : MonoBehaviour
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         animator = GetComponent<Animator>();
+    }
+
+    void Awake() 
+    {
+        aimTransform = transform.Find("Aim");
     }
 
     void Update()
@@ -37,27 +40,12 @@ public class WeaponAim : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, rotZ);    
 
         
-        if (!canFire)
-        {   
-            timer += Time.deltaTime;
-            if(timer > timeBetweenFiring)
-            {
-                canFire = true;
-                timer = 0;
-            }
-            animator.SetBool("Shooting", true);
-        }
-
-        if (Input.GetMouseButton(0) && canFire)
-        {
-            canFire = false;
-            gunPoint.localRotation = Quaternion.Euler(new Vector3(gunPoint.localRotation.x, gunPoint.localRotation.y, Random.Range(-spread, spread)));
-            Instantiate(bullet, gunPoint.position, Quaternion.identity);
-            
-        }
-        
     
-        
+
+    
+
+       
+
         Vector3 direction = (mousePos - (Vector3)transform.position).normalized;
 
         Vector3 scale = transform.localScale;
@@ -78,8 +66,9 @@ public class WeaponAim : MonoBehaviour
         {
             weaponRender.sortingOrder = characterRender.sortingOrder + 1;
         }
+    
+
+    
     }
-
-
 
 }

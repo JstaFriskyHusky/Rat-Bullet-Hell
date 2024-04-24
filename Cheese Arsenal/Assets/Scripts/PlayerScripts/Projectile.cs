@@ -9,9 +9,12 @@ public class Projectile : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
     public GameObject hitEffect;
-    public int damage;
-    public float destroyTime;
-    
+    public int damage = 1;
+
+    // Unused Variables
+    /*
+    public float speed;
+    */
 
     void Start()
     {
@@ -23,27 +26,16 @@ public class Projectile : MonoBehaviour
         Vector3 rotation = transform.position - mousePos;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
         float rot = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, rot + 180);
-
-        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        Destroy(effect, 0.1f);
-        Destroy(gameObject);
-
-
+        transform.rotation = Quaternion.Euler(0, 0, rot + 90);
     }
 
-    void Update()
-    {
-        destroyTime -= Time.deltaTime;
-        if (destroyTime <= 0)
-        {
-            Destroy(this.gameObject);
-        }
-    }
-    
+
+
+
     // Trigger damage on colliding with enemy
     void OnTriggerEnter2D(Collider2D hitInfo)   
     { 
+        //kills enemies with Enemy script
         Debug.Log(hitInfo.name);
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null) {
@@ -51,6 +43,13 @@ public class Projectile : MonoBehaviour
             Destroy(gameObject);
         }
 
+        //kills enemies with Enemies script
+        Debug.Log(hitInfo.name);
+        Enemies enemies = hitInfo.GetComponent<Enemies>();
+        if (enemies != null) {
+            enemies.TakeDamage(damage);
+            Destroy(gameObject);
+        }
     }
 
     // Collide with anything, create an effect and despawn

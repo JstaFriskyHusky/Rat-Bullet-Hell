@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5281000312083974356}
   - component: {fileID: 2429806713369320347}
   - component: {fileID: 4954948522721215528}
+  - component: {fileID: 7582159712360121711}
   m_Layer: 0
   m_Name: Type 56 Bullet
   m_TagString: Untagged
@@ -136,3 +137,30 @@ CircleCollider2D:
   m_Offset: {x: 0.04707284, y: -0.0010847449}
   serializedVersion: 2
   m_Radius: 0.033331294
+--- !u!50 &7582159712360121711
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6651558734954840674}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

@@ -8,11 +8,18 @@ public class MainMenu : MonoBehaviour
     // Press Start will transition to next scene (The game)
     public void PlayGame()
     {
-        SceneManager.LoadSceneAsync(1);
+        // Delayed loading to allow sound effects to fully play
+        Invoke("LoadScene", 1.5f);
+
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void LoadScene()
+    {
+        SceneManager.LoadSceneAsync(1);
     }
 }

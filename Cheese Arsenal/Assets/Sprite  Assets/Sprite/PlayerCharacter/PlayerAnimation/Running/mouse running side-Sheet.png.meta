@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse running side-Sheet 1_0
+      name: mouse running side-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 207493c4ca79d4a4bb36568999ea1b04
-      internalID: -811244328
+      spriteID: fd6840918018fcd4aa632fc317bee5c5
+      internalID: -2031897024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side-Sheet 1_1
+      name: mouse running side-Sheet_1
       rect:
         serializedVersion: 2
         x: 48
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b9f89c96ef27c49aec93a932bd3676
-      internalID: 67858904
+      spriteID: 5ff677806708a0c438c1e5ed303e6f12
+      internalID: 1866891003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side-Sheet 1_2
+      name: mouse running side-Sheet_2
       rect:
         serializedVersion: 2
         x: 96
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 679f3685a3c0465438f4fdd393ad95e1
-      internalID: 459985842
+      spriteID: ad75d8fac4fad7547899657678bb2427
+      internalID: -534583990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side-Sheet 1_3
+      name: mouse running side-Sheet_3
       rect:
         serializedVersion: 2
         x: 144
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5413ec6ce2ef2314f9ec6654df94ffca
-      internalID: -1420066383
+      spriteID: 236e2bd8f4216e6478c6d674f972e6fb
+      internalID: -1384919855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side-Sheet 1_4
+      name: mouse running side-Sheet_4
       rect:
         serializedVersion: 2
         x: 192
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4135642cc573cfb4ba78658f627e0e1d
-      internalID: -1563068911
+      spriteID: c17da4a86496cfc47af45e3832d5f079
+      internalID: -487698334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side-Sheet 1_5
+      name: mouse running side-Sheet_5
       rect:
         serializedVersion: 2
         x: 240
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8425542d7677b35459171ff880db1819
-      internalID: -1019581546
+      spriteID: 5c61194f475441b4daee3bd0bcf3e246
+      internalID: -1623770521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side-Sheet 1_6
+      name: mouse running side-Sheet_6
       rect:
         serializedVersion: 2
         x: 288
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb86ac1e76ecb2145a3ccd46266b0d98
-      internalID: 1671756202
+      spriteID: 9a5e0f858fbb70b469b20ae929b607bd
+      internalID: 337611649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side-Sheet 1_7
+      name: mouse running side-Sheet_7
       rect:
         serializedVersion: 2
         x: 336
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e883e23e142db48a9a5f2306cc614d
-      internalID: -1252377301
+      spriteID: 0f5f3734ffa310148997825df8ed28df
+      internalID: -1227118640
       vertices: []
       indices: 
       edges: []
@@ -293,7 +293,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8e64ef463a0ff8d4aabdb56c4df99c7a
+    spriteID: 6400810be878de54da0bcf20ff07155d
     internalID: 0
     vertices: []
     indices: 
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse running side-Sheet 1_0: -811244328
-      mouse running side-Sheet 1_1: 67858904
-      mouse running side-Sheet 1_2: 459985842
-      mouse running side-Sheet 1_3: -1420066383
-      mouse running side-Sheet 1_4: -1563068911
-      mouse running side-Sheet 1_5: -1019581546
-      mouse running side-Sheet 1_6: 1671756202
-      mouse running side-Sheet 1_7: -1252377301
+      mouse running side-Sheet_0: -2031897024
+      mouse running side-Sheet_1: 1866891003
+      mouse running side-Sheet_2: -534583990
+      mouse running side-Sheet_3: -1384919855
+      mouse running side-Sheet_4: -487698334
+      mouse running side-Sheet_5: -1623770521
+      mouse running side-Sheet_6: 337611649
+      mouse running side-Sheet_7: -1227118640
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

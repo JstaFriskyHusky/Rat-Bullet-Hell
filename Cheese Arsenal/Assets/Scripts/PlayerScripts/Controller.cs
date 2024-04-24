@@ -23,13 +23,14 @@ public class Controller : MonoBehaviour
     public Animator animator;
     public Camera cam;
 
+    Vector2 lastMoveDirection;
     Vector2 movement;
     Vector2 mousePos;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     
@@ -44,8 +45,11 @@ public class Controller : MonoBehaviour
         */
 
         // VVV this theoretically allows movement AND collision
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        
+        ProcessInput();
+        Animate();
+        
+        
         
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -58,6 +62,8 @@ public class Controller : MonoBehaviour
         {
             flip();
         }
+
+        
 
         animator.SetFloat("Horizontal", Mathf.Abs(movement.x));
         animator.SetFloat("Vertical", movement.y);
@@ -97,8 +103,34 @@ public class Controller : MonoBehaviour
 
     void flip()
     {
+        
         facingRight = !facingRight;
         transform.Rotate(0f,180f,0f);
     }
+
+    void ProcessInput()
+    {
+    float Horizontal = Input.GetAxisRaw("Horizontal");
+    float Vertical = Input.GetAxisRaw("Vertical");
+
+    if((Horizontal == 0 && Vertical == 0) && (movement.x != 0 || movement.y != 0))
+    {
+        lastMoveDirection = movement;
+    } 
     
+    movement.x = Input.GetAxisRaw("Horizontal");
+    movement.y = Input.GetAxisRaw("Vertical");
+
+    movement.Normalize();
+    }
+
+    void Animate()
+    {
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.magnitude);
+        animator.SetFloat("LastMoveX", lastMoveDirection.x);
+        animator.SetFloat("LastMoveY", lastMoveDirection.y);
+    }
+
 }

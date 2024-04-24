@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 62bfd815e81a0b044aeec05abf13fa1e
+guid: 38efa41f71b5ab344ab5413e89e2a314
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse running side one handed weapon-Sheet_0
+      name: mouse back side right weapon-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0c5778048dc80e4cadcfe73efc6d053
-      internalID: 1316277380
+      spriteID: 918ff78e75fa9484abb38e505ecc9ecb
+      internalID: -792610187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side one handed weapon-Sheet_1
+      name: mouse back side right weapon-Sheet_1
       rect:
         serializedVersion: 2
         x: 48
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9dbf8725a647a4d9ed20ac58eafbb2
-      internalID: -1844379330
+      spriteID: a70026ef5c3662d428648562e30bcec4
+      internalID: -77051061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side one handed weapon-Sheet_2
+      name: mouse back side right weapon-Sheet_2
       rect:
         serializedVersion: 2
         x: 96
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dce862a550580f34e84dd86a60946e8e
-      internalID: -1158403380
+      spriteID: 8a744435ba5bb914b99661efff722697
+      internalID: -1804929581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side one handed weapon-Sheet_3
+      name: mouse back side right weapon-Sheet_3
       rect:
         serializedVersion: 2
         x: 144
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4899ae8ea59e2914eb854418931115bb
-      internalID: 1734848689
+      spriteID: 6081edf00d8917b47b2f1be7eeb5382d
+      internalID: 1698603411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse running side one handed weapon-Sheet_4
+      name: mouse back side right weapon-Sheet_4
       rect:
         serializedVersion: 2
         x: 192
@@ -221,71 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4589ee48d0c4a947b26e05f6a0ac187
-      internalID: -139181596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse running side one handed weapon-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06a307040feddde4ba46be987fe19f66
-      internalID: -599114680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse running side one handed weapon-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adda376797a7fc94cb8ea831ba1b0ff8
-      internalID: 150668060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse running side one handed weapon-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3066f4c4be40dc418e3f1ce888e7f28
-      internalID: 1811308926
+      spriteID: 220ae0c985094d644b2ff191abf3322a
+      internalID: -765042484
       vertices: []
       indices: 
       edges: []
@@ -293,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 645f92b4e3fc74c40a9cfe2e5edc2f5c
+    spriteID: 2bdbf90f094c33c4c98706be938b2fe4
     internalID: 0
     vertices: []
     indices: 
@@ -301,14 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse running side one handed weapon-Sheet_0: 1316277380
-      mouse running side one handed weapon-Sheet_1: -1844379330
-      mouse running side one handed weapon-Sheet_2: -1158403380
-      mouse running side one handed weapon-Sheet_3: 1734848689
-      mouse running side one handed weapon-Sheet_4: -139181596
-      mouse running side one handed weapon-Sheet_5: -599114680
-      mouse running side one handed weapon-Sheet_6: 150668060
-      mouse running side one handed weapon-Sheet_7: 1811308926
+      mouse back side right weapon-Sheet_0: -792610187
+      mouse back side right weapon-Sheet_1: -77051061
+      mouse back side right weapon-Sheet_2: -1804929581
+      mouse back side right weapon-Sheet_3: 1698603411
+      mouse back side right weapon-Sheet_4: -765042484
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

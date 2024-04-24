@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2676,7 +2676,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1674733663
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 26635022, guid: 127462395d2610a41b067738889db3c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2699,7 +2699,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.01, y: 11.32, z: 0}
-  m_LocalScale: {x: 4.015543, y: 4.015543, z: 2.0077715}
+  m_LocalScale: {x: 6, y: 6, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1062443747}
@@ -12530,7 +12530,7 @@ Camera:
   far clip plane: 870.82
   field of view: 60
   orthographic: 1
-  orthographic size: 2
+  orthographic size: 4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -16847,7 +16847,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2064305685
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 1521087376, guid: 6ed5f497391c6ad478a4df74c0959489, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16872,7 +16872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f49dc47c5e5a26140b8631f66b7037e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4539344021406845801, guid: 9704323cba7f87b458ba5aae735ca8b7, type: 3}
+  bullet: {fileID: 6651558734954840674, guid: aa0ac8b63a287764ea028bd1c90718e1, type: 3}
   gunPoint: {fileID: 64229367}
   canFire: 1
   timeBetweenFiring: 0.3
@@ -18294,7 +18294,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2064305685
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 136431278, guid: 210177ea922516c48bff20b482ad3b5e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

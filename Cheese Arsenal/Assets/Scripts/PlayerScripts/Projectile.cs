@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour
     private Vector3 mousePos;
     private Camera mainCam;
     private Rigidbody2D rb;
-    public float force;
+    public float force, destroyTime;
     public GameObject hitEffect;
     public int damage = 1;
 
@@ -26,10 +26,17 @@ public class Projectile : MonoBehaviour
         Vector3 rotation = transform.position - mousePos;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
         float rot = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, rot + 90);
+        transform.rotation = Quaternion.Euler(0, 0, rot + 0);
     }
 
-
+    void Update()
+    {
+        destroyTime -= Time.deltaTime;
+        if (destroyTime <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 
 
     // Trigger damage on colliding with enemy

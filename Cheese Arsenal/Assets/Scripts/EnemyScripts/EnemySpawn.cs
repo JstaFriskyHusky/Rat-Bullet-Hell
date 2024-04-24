@@ -16,13 +16,14 @@ public class EnemySpawn : MonoBehaviour
 
     IEnumerator EnemyDrop()
     {
-        while (enemyCount < 100)
+        int currentEnemy = 0;
+        while (currentEnemy < enemyCount)
         {
             xPos = Random.Range(1, 5);
             zPos = Random.Range(1, 5);
             Instantiate(theEnemy, new Vector3(xPos, 3, zPos), Quaternion.identity);
-            yield return new WaitForSeconds(0.1f);
-            enemyCount += 1;
+            yield return new WaitForSeconds(0.2f);
+            currentEnemy += 1;
         }
     }
 }

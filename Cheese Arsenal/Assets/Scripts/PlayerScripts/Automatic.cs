@@ -12,7 +12,8 @@ public class WeaponAimAutomatic : MonoBehaviour
     public bool canFire;
     private float timer;
     public float timeBetweenFiring, spread;
-
+    public AudioSource src;
+    public AudioClip shotSound; 
 
 
 
@@ -48,6 +49,8 @@ public class WeaponAimAutomatic : MonoBehaviour
             Instantiate(bullet, gunPoint.position, Quaternion.identity);
             canFire = false;
             animator.SetBool("Shooting", true);
+            src.clip = shotSound;
+            src.Play();
         }
 
     

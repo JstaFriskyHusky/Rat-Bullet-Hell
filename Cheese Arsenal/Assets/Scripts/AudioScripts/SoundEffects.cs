@@ -4,24 +4,21 @@ using UnityEngine;
 
 public class SoundEffects : MonoBehaviour
 {
-    public AudioSource src;
-    public AudioClip sfx1, sfx2, sfx3;
+    public AudioSource musicSrc;
+    public AudioSource buttonSrc;
+    public AudioClip sfx;
+    public AudioClip music;
+
+    private void Start()
+    {
+        musicSrc.clip = music;
+        musicSrc.Play();
+    }
 
     public void Gunshot()
     {
-        src.clip = sfx1;
-        src.Play();
-    }
-
-    public void Explosion()
-    {
-        src.clip = sfx2;
-        src.Play();
-    }
-
-    public void PlayerDeath()
-    {
-        src.clip = sfx3;
-        src.Play();
+        buttonSrc.clip = sfx;
+        buttonSrc.Play();
     }
 }
+

@@ -12,6 +12,8 @@ public class Semi : MonoBehaviour
     public bool canFire;
     private float timer;
     public float timeBetweenFiring, spread;
+    public AudioSource src;
+    public AudioClip shotSound; 
 
 
 
@@ -49,6 +51,8 @@ public class Semi : MonoBehaviour
             Instantiate(bullet, gunPoint.position, Quaternion.identity);
             animator.SetBool("Shooting", true);
             canFire = false;
+            src.clip = shotSound;
+            src.Play();
         }
 
     

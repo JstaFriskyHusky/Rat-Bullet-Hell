@@ -102,7 +102,7 @@ MonoBehaviour:
   enemyName: Skelly
   moveSpeed: 2
   maxHealthPoint: 2
-  distance: 3.5
+  distance: 6.07
   deathEffect: {fileID: 3073379322691294683, guid: fbffe6fbb61fb794fb2bea072b8a7c3b, type: 3}
   wayPoint01: {fileID: 0}
   wayPoint02: {fileID: 0}

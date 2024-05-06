@@ -28,8 +28,8 @@ public class Player : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        //collision with slime makes player lose health
-        if(collision.name == "slime")
+        //collision with enemies that have "Enemy" tag will cause player dmg
+        if(collision.tag == "Enemy")
         {
             currentHealth -= 20;
             healthBar.SetHealth(currentHealth);

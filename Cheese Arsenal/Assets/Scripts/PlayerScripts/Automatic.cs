@@ -14,6 +14,9 @@ public class WeaponAimAutomatic : MonoBehaviour
     private float timer;
     public float timeBetweenFiring, spread, reloadTime;
     public int currentMag, maxMag = 0, currentAmmo, maxAmmo = 0;
+    public float timeBetweenFiring, spread;
+    public AudioSource src;
+    public AudioClip shotSound; 
 
 
 
@@ -57,6 +60,8 @@ public class WeaponAimAutomatic : MonoBehaviour
             Instantiate(bullet, gunPoint.position, Quaternion.identity);
             canFire = false;
             animator.SetBool("Shooting", true);
+            src.clip = shotSound;
+            src.Play();
         }
 
         if( Input.GetKeyDown(KeyCode.R))

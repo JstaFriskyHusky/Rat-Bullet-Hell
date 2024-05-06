@@ -14,6 +14,11 @@ public class Semi : MonoBehaviour
     private float timer;
     public float timeBetweenFiring, spread, reloadTime;
     public int currentMag, maxMag = 0, currentAmmo, maxAmmo = 0;
+    public float timeBetweenFiring, spread;
+    public AudioSource src;
+    public AudioClip shotSound; 
+
+
 
 
     public SpriteRenderer characterRender, weaponRender;
@@ -55,6 +60,8 @@ public class Semi : MonoBehaviour
             Instantiate(bullet, gunPoint.position, Quaternion.identity);
             animator.SetBool("Shooting", true);
             canFire = false;
+            src.clip = shotSound;
+            src.Play();
         }
 
         if (Input.GetKeyDown(KeyCode.R) && currentMag > 0)
@@ -92,3 +99,4 @@ public class Semi : MonoBehaviour
         }
     
 }
+

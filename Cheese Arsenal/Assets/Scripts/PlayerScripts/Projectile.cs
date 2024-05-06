@@ -42,14 +42,6 @@ public class Projectile : MonoBehaviour
     // Trigger damage on colliding with enemy
     void OnTriggerEnter2D(Collider2D hitInfo)   
     { 
-        //kills enemies with Enemy script
-        Debug.Log(hitInfo.name);
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if (enemy != null) {
-            enemy.TakeDamage(damage);
-            Destroy(gameObject);
-        }
-
         //kills enemies with Enemies script
         Debug.Log(hitInfo.name);
         Enemies enemies = hitInfo.GetComponent<Enemies>();
@@ -57,16 +49,26 @@ public class Projectile : MonoBehaviour
             enemies.TakeDamage(damage);
             Destroy(gameObject);
         }
-    }
 
-    // Collide with anything, create an effect and despawn
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (!collision.gameObject.CompareTag("Player") || !collision.gameObject.CompareTag("Collectible")) 
+        if (hitInfo.gameObject.CompareTag("Map"))
         {
             GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             Destroy(effect, 0.1f);
             Destroy(gameObject);
         }
     }
+
+    // Collide with anything, create an effect and despawn [DOESNT WORK]
+
+    // void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if (!collision.gameObject.CompareTag("Player") || !collision.gameObject.CompareTag("Collectible")) 
+    //     {
+    //         GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+    //         Destroy(effect, 0.1f);
+    //         Destroy(gameObject);
+    //     }
+    // }
+
+
 }

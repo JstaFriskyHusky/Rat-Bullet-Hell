@@ -15,7 +15,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - PostProcess
   - 
   - 
   - 
@@ -49,6 +49,9 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 1301477995
+    locked: 0
+  - name: Props
+    uniqueID: 2293517571
     locked: 0
   - name: Projectile
     uniqueID: 3759443253

@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b3add1a1747b514087569333318dad6
-      internalID: 136431278
+      spriteID: a70436bc07fa2ea448f268d52fb80e4d
+      internalID: 578158772
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6bf093edb6104945a7570982feb4728
-      internalID: -1126924491
+      spriteID: dcf6ad86c66c03f4d96245e144deddfc
+      internalID: 299584104
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4451704905eab241a1420607a4018ee
-      internalID: -1950718451
+      spriteID: 67fc60479ea6df348817259147268a0e
+      internalID: 42043187
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e55055cd705f0438c886cbcba561d3
-      internalID: 675040517
+      spriteID: 216296a9ad654f84e8d46d985d01e310
+      internalID: 1077872947
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d521533e2b63be42a2f4f0d48244868
-      internalID: -840602323
+      spriteID: 1e1e4e4dc2a92c445b59a0ef99158a07
+      internalID: 1680005633
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: a7be9ccd0b74ce745ab49018e2d0aba2
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse type 56 idle-Sheet_0: 136431278
-      mouse type 56 idle-Sheet_1: -1126924491
-      mouse type 56 idle-Sheet_2: -1950718451
-      mouse type 56 idle-Sheet_3: 675040517
-      mouse type 56 idle-Sheet_4: -840602323
+      mouse type 56 idle-Sheet_0: 578158772
+      mouse type 56 idle-Sheet_1: 299584104
+      mouse type 56 idle-Sheet_2: 42043187
+      mouse type 56 idle-Sheet_3: 1077872947
+      mouse type 56 idle-Sheet_4: 1680005633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

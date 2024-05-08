@@ -12,9 +12,8 @@ public class Semi : MonoBehaviour
     public bool canFire;
     private bool canReload;
     private float timer;
-    public float timeBetweenFiring, spread, reloadTime;
+    public float timeBetweenFiring, reloadTime;
     public int currentMag, maxMag = 0, currentAmmo, maxAmmo = 0;
-    public float timeBetweenFiring, spread;
     public AudioSource src;
     public AudioClip shotSound; 
 

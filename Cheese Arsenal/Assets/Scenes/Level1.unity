@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9d0a492088197864c9e374e2f43eeb01, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -767,6 +767,8 @@ GameObject:
   - component: {fileID: 156390031}
   - component: {fileID: 156390030}
   - component: {fileID: 156390029}
+  - component: {fileID: 156390037}
+  - component: {fileID: 156390036}
   m_Layer: 0
   m_Name: zombierat (3)
   m_TagString: Untagged
@@ -947,6 +949,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &156390036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156390028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe2f34d22275364db6574edb0e84bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyName: 
+  moveSpeed: 3
+  maxHealthPoint: 6
+  distance: 0
+  deathEffect: {fileID: 0}
+  projectile: {fileID: 1258992224028012501, guid: c2dbc405a54437a48b7c5b5e18847b13, type: 3}
+--- !u!114 &156390037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156390028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a8701b01330f6418f8893b77a908a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotSpeed: 4
+  maxLife: 2
+  destroyEffect: {fileID: 0}
 --- !u!1 &215048275
 GameObject:
   m_ObjectHideFlags: 0
@@ -39546,7 +39581,7 @@ MonoBehaviour:
   bullet: {fileID: 6651558734954840674, guid: aa0ac8b63a287764ea028bd1c90718e1, type: 3}
   gunPoint: {fileID: 1942488400}
   canFire: 1
-  timeBetweenFiring: 0.25
+  timeBetweenFiring: 0.15
   reloadTime: 1.4
   currentMag: 0
   maxMag: 30
@@ -40082,6 +40117,8 @@ GameObject:
   - component: {fileID: 2077803766}
   - component: {fileID: 2077803765}
   - component: {fileID: 2077803764}
+  - component: {fileID: 2077803772}
+  - component: {fileID: 2077803771}
   m_Layer: 0
   m_Name: zombierat (2)
   m_TagString: Untagged
@@ -40188,7 +40225,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077803763}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b99fc1377704ddf4db591645f4ddf311, type: 3}
   m_Name: 
@@ -40262,6 +40299,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2077803771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077803763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe2f34d22275364db6574edb0e84bb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyName: 
+  moveSpeed: 3
+  maxHealthPoint: 6
+  distance: 1
+  deathEffect: {fileID: 0}
+  projectile: {fileID: 1258992224028012501, guid: c2dbc405a54437a48b7c5b5e18847b13, type: 3}
+--- !u!114 &2077803772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077803763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2a8701b01330f6418f8893b77a908a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shotSpeed: 4
+  maxLife: 2
+  destroyEffect: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

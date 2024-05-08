@@ -14,7 +14,6 @@ public class Semi : MonoBehaviour
     private float timer;
     public float timeBetweenFiring, spread, reloadTime;
     public int currentMag, maxMag = 0, currentAmmo, maxAmmo = 0;
-    public float timeBetweenFiring, spread;
     public AudioSource src;
     public AudioClip shotSound; 
 

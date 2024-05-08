@@ -34,6 +34,7 @@ public class Enemies : MonoBehaviour
         if(Vector2.Distance(transform.position, target.position) < distance)
         {
             transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+            SetDistance(1000);
         }
     }
 
@@ -70,5 +71,10 @@ public class Enemies : MonoBehaviour
     protected virtual void Attack()
     {
         Debug.Log(enemyName + " is Attacking");
+    }
+
+    void SetDistance(float d)
+    {
+        distance = d;
     }
 }

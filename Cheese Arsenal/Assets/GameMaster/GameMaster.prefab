@@ -266,7 +266,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8498803625359058513}
   - component: {fileID: 3406414103711161554}
-  - component: {fileID: 4256309125526861676}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -304,19 +303,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 8307634960863726823}
---- !u!114 &4256309125526861676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7355354522344527847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bdc3b8a1b7960449ba12476174c9197, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collectibleCount: 1
 --- !u!1 &7420874507900960234
 GameObject:
   m_ObjectHideFlags: 0

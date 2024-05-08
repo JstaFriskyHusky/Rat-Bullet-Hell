@@ -78,6 +78,7 @@ public class Semi : MonoBehaviour
    IEnumerator Reload()
         {
             canReload = true;
+            canFire = false;
             animator.SetBool("Reload", true);
             yield return new WaitForSeconds(reloadTime);
             int reloadAmount = maxMag - currentMag;
@@ -85,6 +86,7 @@ public class Semi : MonoBehaviour
             currentMag += reloadAmount;
             currentAmmo -= reloadAmount;
             animator.SetBool("Reload", false);
+            canFire = true;
             canReload = false;
         }
 

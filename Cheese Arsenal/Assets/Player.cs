@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
 
     public int maxHealth = 100;
-    public int currentHealth;
+    public static int currentHealth;
     //float curTime = 0;
     //float nextDamage = 1;
 

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6649787855505937105}
   - component: {fileID: 5515955424509961758}
   - component: {fileID: 4632649100249669325}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: mouse compact pistol bullet-Sheet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 60
   destroyTime: 3
-  hitEffect: {fileID: 0}
+  hitEffect: {fileID: 3073379322691294683, guid: fbffe6fbb61fb794fb2bea072b8a7c3b, type: 3}
   damage: 20
 --- !u!58 &5515955424509961758
 CircleCollider2D:

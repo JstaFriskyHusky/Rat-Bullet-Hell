@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
         }
 
         //script for potion and getting more health
-        if(collision.tag == "Potion")
+        if(collision.tag == "Cheese")
         {
             Debug.Log("Picked up potion.");
             if(currentHealth < 100)

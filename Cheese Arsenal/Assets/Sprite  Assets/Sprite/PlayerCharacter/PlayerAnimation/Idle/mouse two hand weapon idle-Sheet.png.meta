@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f3e94efbfd87af46ac81576f6756cfe
-      internalID: 1530761054
+      spriteID: 8e30cc86da6c2c940b3497d0b12a74b2
+      internalID: -940320954
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25f2a6aa7c804b4dba308553b090fcf
-      internalID: -479091406
+      spriteID: 8ccb54b381e7b92488fa0c8e3c79403b
+      internalID: 1639363163
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd69916516ed32c45bf73bd52225e850
-      internalID: 1015110158
+      spriteID: 3d119ea6cb3cbad4594d00875f8fb838
+      internalID: 2006208167
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e8a7f4eec567ac4195c7a5361b9c2d7
-      internalID: -895331131
+      spriteID: b5c2fcbc783435b4f9dbd62e09a03f0c
+      internalID: -2001451285
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8942aefb88924b745bd3d97b714ca79e
-      internalID: -488094058
+      spriteID: bee08b46bdddc1e4e8000b99840cc7fb
+      internalID: -1947022870
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 89173af49f62bd24a9f903ae39ccbe28
+    spriteID: d6b1c3e1948121a4d911ed755b50139b
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse two hand weapon idle-Sheet_0: 1530761054
-      mouse two hand weapon idle-Sheet_1: -479091406
-      mouse two hand weapon idle-Sheet_2: 1015110158
-      mouse two hand weapon idle-Sheet_3: -895331131
-      mouse two hand weapon idle-Sheet_4: -488094058
+      mouse two hand weapon idle-Sheet_0: -940320954
+      mouse two hand weapon idle-Sheet_1: 1639363163
+      mouse two hand weapon idle-Sheet_2: 2006208167
+      mouse two hand weapon idle-Sheet_3: -2001451285
+      mouse two hand weapon idle-Sheet_4: -1947022870
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

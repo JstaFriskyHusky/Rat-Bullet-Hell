@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 38efa41f71b5ab344ab5413e89e2a314
+guid: 554205f4de0fe7b41b44e3a332ea0181
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse back side right weapon-Sheet_0
+      name: mouse back side right-Sheet 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 918ff78e75fa9484abb38e505ecc9ecb
-      internalID: -792610187
+      spriteID: f6e3b31a584079642aae6066f329a884
+      internalID: 1058537315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse back side right weapon-Sheet_1
+      name: mouse back side right-Sheet 1_1
       rect:
         serializedVersion: 2
         x: 48
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a70026ef5c3662d428648562e30bcec4
-      internalID: -77051061
+      spriteID: 506c56c395833a44cba34137e8da9ca9
+      internalID: 647270842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse back side right weapon-Sheet_2
+      name: mouse back side right-Sheet 1_2
       rect:
         serializedVersion: 2
         x: 96
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a744435ba5bb914b99661efff722697
-      internalID: -1804929581
+      spriteID: c601bea185dc07c4eb1e4d2395f73c75
+      internalID: -1691405509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse back side right weapon-Sheet_3
+      name: mouse back side right-Sheet 1_3
       rect:
         serializedVersion: 2
         x: 144
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6081edf00d8917b47b2f1be7eeb5382d
-      internalID: 1698603411
+      spriteID: f238e08c06f856b4ba2665350c2f3088
+      internalID: 165936348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse back side right weapon-Sheet_4
+      name: mouse back side right-Sheet 1_4
       rect:
         serializedVersion: 2
         x: 192
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 220ae0c985094d644b2ff191abf3322a
-      internalID: -765042484
+      spriteID: 591ac3b0ac98e7f45900591b443ca610
+      internalID: -909760314
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2bdbf90f094c33c4c98706be938b2fe4
+    spriteID: 01b5f04b3673fe84fac1fb3692433f3b
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse back side right weapon-Sheet_0: -792610187
-      mouse back side right weapon-Sheet_1: -77051061
-      mouse back side right weapon-Sheet_2: -1804929581
-      mouse back side right weapon-Sheet_3: 1698603411
-      mouse back side right weapon-Sheet_4: -765042484
+      mouse back side right-Sheet 1_0: 1058537315
+      mouse back side right-Sheet 1_1: 647270842
+      mouse back side right-Sheet 1_2: -1691405509
+      mouse back side right-Sheet 1_3: 165936348
+      mouse back side right-Sheet 1_4: -909760314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

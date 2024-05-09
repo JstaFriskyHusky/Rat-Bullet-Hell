@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse-Sheet 1_0
+      name: mouse-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6fb78e278f6077489fb3910252bba93
-      internalID: 26635022
+      spriteID: d10b2781ed936e042b29423fdc38f727
+      internalID: -1880491656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet 1_1
+      name: mouse-Sheet_1
       rect:
         serializedVersion: 2
         x: 48
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23255fef94a01d34eae31b615f1c69f6
-      internalID: 1194351936
+      spriteID: 3e76d90950948634b91a60a23e688a3c
+      internalID: 720659182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet 1_2
+      name: mouse-Sheet_2
       rect:
         serializedVersion: 2
         x: 96
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9399ad529d3aaf3408f3e19d5745a1ca
-      internalID: -421968663
+      spriteID: 7a098f174dba9fe47a454fb2b0013da8
+      internalID: -473637249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet 1_3
+      name: mouse-Sheet_3
       rect:
         serializedVersion: 2
         x: 144
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8aa30dddae79484da528ec54bfa0c74
-      internalID: 2122608420
+      spriteID: 303305e0b0b9d804f86ac532d08a45f9
+      internalID: -1034345702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet 1_4
+      name: mouse-Sheet_4
       rect:
         serializedVersion: 2
         x: 192
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0cc534397ca064a8fcf7336f99ca18
-      internalID: 513673739
+      spriteID: 402845711ef39c84ca615032006f940f
+      internalID: -1155817127
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8a2614fadde83ba47bb4da8a0377c428
+    spriteID: c962301c3a8b9f94da2058a29602c7dd
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse-Sheet 1_0: 26635022
-      mouse-Sheet 1_1: 1194351936
-      mouse-Sheet 1_2: -421968663
-      mouse-Sheet 1_3: 2122608420
-      mouse-Sheet 1_4: 513673739
+      mouse-Sheet_0: -1880491656
+      mouse-Sheet_1: 720659182
+      mouse-Sheet_2: -473637249
+      mouse-Sheet_3: -1034345702
+      mouse-Sheet_4: -1155817127
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

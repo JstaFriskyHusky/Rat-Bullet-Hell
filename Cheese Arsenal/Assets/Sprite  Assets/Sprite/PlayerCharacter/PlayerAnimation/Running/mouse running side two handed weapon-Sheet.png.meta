@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82bcc30e503147a4db39dd171255f71e
-      internalID: 616140709
+      spriteID: 8fc757e5536434f4a9084323988ec26b
+      internalID: -1789815362
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c46bf3128b33784f80aa96fa802d9fd
-      internalID: -996473731
+      spriteID: f99377f5a54246b41ab2a4888488f152
+      internalID: -259906484
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ccd47071d431744780240779b174be6
-      internalID: 547777622
+      spriteID: dae5c9dc7825c89469f48c2b57cd02a0
+      internalID: 1809471253
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a7f9de4e6d9cdd49a0ea0d629f64558
-      internalID: 849449755
+      spriteID: fa3cc451285b07c45b59426d162f092c
+      internalID: -1739123687
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71a3d1dbbc789794e81bd888382b2bff
-      internalID: 37920533
+      spriteID: cdedff9e2c0236640b19bb83aa6f2269
+      internalID: -522970940
       vertices: []
       indices: 
       edges: []
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6dca39006a21ac458ea9ea37e49099d
-      internalID: -1948405987
+      spriteID: 8a6b51789703fbc4eb0fbc7f1fa195ad
+      internalID: -555606698
       vertices: []
       indices: 
       edges: []
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39522458d49606448b0e5b64e5635640
-      internalID: -817424356
+      spriteID: 780560264739f454a9e97306fbac0820
+      internalID: 1020927258
       vertices: []
       indices: 
       edges: []
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d617317c0d48fb944aba289d1ec30df0
-      internalID: -1948705588
+      spriteID: 7ca12947887e5224fa68c48ec5477347
+      internalID: -1375953244
       vertices: []
       indices: 
       edges: []
@@ -293,7 +293,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c370fda9e083da4409dd3321e2ef1dec
+    spriteID: b7d1c56519d89ee44a1abf2e60e97252
     internalID: 0
     vertices: []
     indices: 
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse running side two handed weapon-Sheet_0: 616140709
-      mouse running side two handed weapon-Sheet_1: -996473731
-      mouse running side two handed weapon-Sheet_2: 547777622
-      mouse running side two handed weapon-Sheet_3: 849449755
-      mouse running side two handed weapon-Sheet_4: 37920533
-      mouse running side two handed weapon-Sheet_5: -1948405987
-      mouse running side two handed weapon-Sheet_6: -817424356
-      mouse running side two handed weapon-Sheet_7: -1948705588
+      mouse running side two handed weapon-Sheet_0: -1789815362
+      mouse running side two handed weapon-Sheet_1: -259906484
+      mouse running side two handed weapon-Sheet_2: 1809471253
+      mouse running side two handed weapon-Sheet_3: -1739123687
+      mouse running side two handed weapon-Sheet_4: -522970940
+      mouse running side two handed weapon-Sheet_5: -555606698
+      mouse running side two handed weapon-Sheet_6: 1020927258
+      mouse running side two handed weapon-Sheet_7: -1375953244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

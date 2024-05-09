@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0c5778048dc80e4cadcfe73efc6d053
-      internalID: 1316277380
+      spriteID: a5eff0fb9a6c01d49bcfc6fd75b7fc73
+      internalID: 1710702169
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f9dbf8725a647a4d9ed20ac58eafbb2
-      internalID: -1844379330
+      spriteID: b76ae282029a245489cea5c0ff775e93
+      internalID: -940062736
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dce862a550580f34e84dd86a60946e8e
-      internalID: -1158403380
+      spriteID: 6619e0b83ba96e442b2fcdf20e20b7d8
+      internalID: -70244817
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4899ae8ea59e2914eb854418931115bb
-      internalID: 1734848689
+      spriteID: e29ca8e295a4c4e40b95635b0f9dac48
+      internalID: -1981297369
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4589ee48d0c4a947b26e05f6a0ac187
-      internalID: -139181596
+      spriteID: da027e17630aba940acfcd0b930da20a
+      internalID: -899564402
       vertices: []
       indices: 
       edges: []
@@ -242,8 +242,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06a307040feddde4ba46be987fe19f66
-      internalID: -599114680
+      spriteID: 52218dd7be67627489130edb6cd872f1
+      internalID: -757595884
       vertices: []
       indices: 
       edges: []
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adda376797a7fc94cb8ea831ba1b0ff8
-      internalID: 150668060
+      spriteID: 2c9fef1b9028930418d4a27349d14d21
+      internalID: -1982976854
       vertices: []
       indices: 
       edges: []
@@ -284,8 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3066f4c4be40dc418e3f1ce888e7f28
-      internalID: 1811308926
+      spriteID: dd300127ad6f0994caf4f3cb75ad66ce
+      internalID: -649484296
       vertices: []
       indices: 
       edges: []
@@ -293,7 +293,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 645f92b4e3fc74c40a9cfe2e5edc2f5c
+    spriteID: ab5feb477bb7bd34e8e37f4a027424c0
     internalID: 0
     vertices: []
     indices: 
@@ -301,14 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse running side one handed weapon-Sheet_0: 1316277380
-      mouse running side one handed weapon-Sheet_1: -1844379330
-      mouse running side one handed weapon-Sheet_2: -1158403380
-      mouse running side one handed weapon-Sheet_3: 1734848689
-      mouse running side one handed weapon-Sheet_4: -139181596
-      mouse running side one handed weapon-Sheet_5: -599114680
-      mouse running side one handed weapon-Sheet_6: 150668060
-      mouse running side one handed weapon-Sheet_7: 1811308926
+      mouse running side one handed weapon-Sheet_0: 1710702169
+      mouse running side one handed weapon-Sheet_1: -940062736
+      mouse running side one handed weapon-Sheet_2: -70244817
+      mouse running side one handed weapon-Sheet_3: -1981297369
+      mouse running side one handed weapon-Sheet_4: -899564402
+      mouse running side one handed weapon-Sheet_5: -757595884
+      mouse running side one handed weapon-Sheet_6: -1982976854
+      mouse running side one handed weapon-Sheet_7: -649484296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

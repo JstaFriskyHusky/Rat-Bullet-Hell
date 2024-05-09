@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 27816d93ece51724bb5173ff496317b5
+guid: 1636e2b49fe5cc4429f41528b2a84b23
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse-Sheet 1_0
+      name: mouse one hand weapon idle-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f3994a0e6ddf9444a931883bccb9745
-      internalID: -681273948
+      spriteID: db588e2198536974087fa6cad44bb905
+      internalID: 506469341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet 1_1
+      name: mouse one hand weapon idle-Sheet_1
       rect:
         serializedVersion: 2
         x: 48
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dee8b1295b7c1614e84d4137a00829ae
-      internalID: -530681712
+      spriteID: cea501c40f99ac140a067dc4d301be9f
+      internalID: -1068765903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet 1_2
+      name: mouse one hand weapon idle-Sheet_2
       rect:
         serializedVersion: 2
         x: 96
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 834a8eab1dc6e174cb826a88ad0a6819
-      internalID: 914237679
+      spriteID: 081f61994533969448a322e2419221f8
+      internalID: -1507175340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet 1_3
+      name: mouse one hand weapon idle-Sheet_3
       rect:
         serializedVersion: 2
         x: 144
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 000e88b40a9ea53419b39e030a075c4b
-      internalID: 1226309853
+      spriteID: d0e70485712b2b44198a7d8c7fd28d03
+      internalID: 1922995772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse-Sheet 1_4
+      name: mouse one hand weapon idle-Sheet_4
       rect:
         serializedVersion: 2
         x: 192
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a16099e4abafb749bbb3702ca303180
-      internalID: 84380554
+      spriteID: 89ed3479a2a1b904eb5e694804c1d0fb
+      internalID: 345256068
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 0a5ad4abfe0315449ade0376f9a84c59
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse-Sheet 1_0: -681273948
-      mouse-Sheet 1_1: -530681712
-      mouse-Sheet 1_2: 914237679
-      mouse-Sheet 1_3: 1226309853
-      mouse-Sheet 1_4: 84380554
+      mouse one hand weapon idle-Sheet_0: 506469341
+      mouse one hand weapon idle-Sheet_1: -1068765903
+      mouse one hand weapon idle-Sheet_2: -1507175340
+      mouse one hand weapon idle-Sheet_3: 1922995772
+      mouse one hand weapon idle-Sheet_4: 345256068
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -69,27 +69,7 @@ public class Controller : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        // [WEAPON ROTATION] -----------------------------------------------------------------
-        /// VVV this code allows the weapon to point in the direction of the mouse (BROKEN)
-        /*
-        Vector3 displacement = weapon.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        float angle = Mathf.Atan2(displacement.y, displacement.x) * Mathf.Rad2Deg;
-        weapon.rotation = Quaternion.Euler(0f, 0f, angle + offset);
-        */
-
-        
-        
-        // SHOT DELAY ------------------------------------------------------------------------
-        /*
-        if (Input.GetMouseButtonDown(0)) 
-        {
-            if (Time.time > nextShotTime)
-            {
-                nextShotTime = Time.time + timeBetweenShots;
-                Instantiate(projectile, shotPoint.position, shotPoint.rotation);  
-            }
-        } 
-        */
+    
     }
 
 

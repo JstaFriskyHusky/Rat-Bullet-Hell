@@ -7,11 +7,7 @@ public class WeaponAim : MonoBehaviour
     private Camera mainCam;
     private Vector3 mousePos;
     
-    public GameObject bullet;
-    public Transform gunPoint, aimTransform;
-    public bool canFire;
-    private float timer;
-    public float timeBetweenFiring, spread;
+    public Transform  aimTransform;
 
 
     public SpriteRenderer characterRender, weaponRender;

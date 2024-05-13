@@ -193,6 +193,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7731df250e383b4080c2fb13d0df765, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotSpeed: 3.36
-  maxLife: 4.46
-  destroyEffect: {fileID: 3073379322691294683, guid: fbffe6fbb61fb794fb2bea072b8a7c3b, type: 3}

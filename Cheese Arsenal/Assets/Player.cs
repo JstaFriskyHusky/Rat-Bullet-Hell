@@ -91,6 +91,7 @@ public class Player : MonoBehaviour
 
     void Die()
     {
+        Instantiate(deathScreen);
         Destroy(gameObject);
     }
 

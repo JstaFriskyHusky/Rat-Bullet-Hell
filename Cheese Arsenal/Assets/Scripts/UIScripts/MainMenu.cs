@@ -47,4 +47,9 @@ public class MainMenu : MonoBehaviour
             controlsMenu.SetActive(true);
         } 
     }
+
+    public void ExitControls()
+    {
+        controlsMenu.SetActive(false);
+    }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5d49a75ea800c0e4c9447a19854ced72
+guid: 3d6c6a7fd0198064d872b228a0c07700
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratzombie_Run_0
+      name: slime_RangedAttack_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 39
-        height: 36
+        width: 56
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d16d3e34a4ddcc46a82e6fa08892d83
-      internalID: 155087901
+      spriteID: 4b4e414d5c250b140bea036badaf376c
+      internalID: -208303645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_1
+      name: slime_RangedAttack_1
       rect:
         serializedVersion: 2
-        x: 39
+        x: 56
         y: 0
-        width: 39
-        height: 36
+        width: 56
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6ec61524205a1428f7953dbcc2d9f1
-      internalID: -216849412
+      spriteID: f8bd03d02947ed345a77c188048edb2f
+      internalID: 1417750680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_2
+      name: slime_RangedAttack_2
       rect:
         serializedVersion: 2
-        x: 78
+        x: 112
         y: 0
-        width: 39
-        height: 36
+        width: 56
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1634c5825f9a5ca43bc555d0d407b536
-      internalID: 1154783298
+      spriteID: 46b97612cf2523f47bdf1e26cdc0a23f
+      internalID: 409051695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_3
+      name: slime_RangedAttack_3
       rect:
         serializedVersion: 2
-        x: 117
+        x: 168
         y: 0
-        width: 39
-        height: 36
+        width: 56
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1537ae4a1b9fe4fa91f5e4bdee450f
-      internalID: -2073391830
+      spriteID: 4321da31171e36c4ba4e5e052e3a4622
+      internalID: -2058088624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_RangedAttack_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598cd25197e7a2b44a41d475b835d59c
+      internalID: -545522569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_RangedAttack_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e5a2e599a950b479a484ce05cdde59
+      internalID: 1712198312
       vertices: []
       indices: 
       edges: []
@@ -196,7 +238,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c5b9bffc2a0942947a183452aada1b34
+    spriteID: 6f138ada659cbbf4e926d1d101c20431
     internalID: 0
     vertices: []
     indices: 
@@ -204,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ratzombie_Run_0: 155087901
-      ratzombie_Run_1: -216849412
-      ratzombie_Run_2: 1154783298
-      ratzombie_Run_3: -2073391830
+      slime_RangedAttack_0: -208303645
+      slime_RangedAttack_1: 1417750680
+      slime_RangedAttack_2: 409051695
+      slime_RangedAttack_3: -2058088624
+      slime_RangedAttack_4: -545522569
+      slime_RangedAttack_5: 1712198312
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

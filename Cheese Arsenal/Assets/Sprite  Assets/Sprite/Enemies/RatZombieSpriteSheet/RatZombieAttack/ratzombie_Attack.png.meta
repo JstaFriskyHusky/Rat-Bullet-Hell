@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5d49a75ea800c0e4c9447a19854ced72
+guid: d8669cc8123b6e04c9a42e8856e74b3b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratzombie_Run_0
+      name: ratzombie_Attack_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 39
-        height: 36
+        width: 46
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d16d3e34a4ddcc46a82e6fa08892d83
-      internalID: 155087901
+      spriteID: 68bb966cafbfc494cb82097571de8b7a
+      internalID: 317445935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_1
+      name: ratzombie_Attack_1
       rect:
         serializedVersion: 2
-        x: 39
+        x: 46
         y: 0
-        width: 39
-        height: 36
+        width: 46
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6ec61524205a1428f7953dbcc2d9f1
-      internalID: -216849412
+      spriteID: c212d47c390623045ab5e265e983f28a
+      internalID: 1862682256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_2
+      name: ratzombie_Attack_2
       rect:
         serializedVersion: 2
-        x: 78
+        x: 92
         y: 0
-        width: 39
-        height: 36
+        width: 46
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1634c5825f9a5ca43bc555d0d407b536
-      internalID: 1154783298
+      spriteID: 738e5310dd4fd994d94056abe8e297af
+      internalID: 166610729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_3
+      name: ratzombie_Attack_3
       rect:
         serializedVersion: 2
-        x: 117
+        x: 138
         y: 0
-        width: 39
-        height: 36
+        width: 46
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1537ae4a1b9fe4fa91f5e4bdee450f
-      internalID: -2073391830
+      spriteID: e3ddc9cff89918f48af1375eadeb07bd
+      internalID: 1172886723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratzombie_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8454a11f0b0e044085b348c2fdd042c
+      internalID: -974868269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ratzombie_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e600b64f90cb4981144de0f74cf77
+      internalID: 648491833
       vertices: []
       indices: 
       edges: []
@@ -196,7 +238,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c5b9bffc2a0942947a183452aada1b34
+    spriteID: c8be54c5e2fa8eb4a89196bfef34a929
     internalID: 0
     vertices: []
     indices: 
@@ -204,10 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ratzombie_Run_0: 155087901
-      ratzombie_Run_1: -216849412
-      ratzombie_Run_2: 1154783298
-      ratzombie_Run_3: -2073391830
+      ratzombie_Attack_0: 317445935
+      ratzombie_Attack_1: 1862682256
+      ratzombie_Attack_2: 166610729
+      ratzombie_Attack_3: 1172886723
+      ratzombie_Attack_4: -974868269
+      ratzombie_Attack_5: 648491833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

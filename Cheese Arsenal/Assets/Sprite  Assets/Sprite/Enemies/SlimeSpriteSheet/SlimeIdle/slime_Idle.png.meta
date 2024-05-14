@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5d49a75ea800c0e4c9447a19854ced72
+guid: fdc9fdb38cfb6724297cfc703b5095c4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ratzombie_Run_0
+      name: slime_Idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 39
-        height: 36
+        width: 62.25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d16d3e34a4ddcc46a82e6fa08892d83
-      internalID: 155087901
+      spriteID: 328004c0b70344242b3fe60e8403c6a0
+      internalID: 1041159918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_1
+      name: slime_Idle_1
       rect:
         serializedVersion: 2
-        x: 39
+        x: 62
         y: 0
-        width: 39
-        height: 36
+        width: 62.25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b6ec61524205a1428f7953dbcc2d9f1
-      internalID: -216849412
+      spriteID: 8f8c74338b1865c4383b45c14b3eda8f
+      internalID: 2040349939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_2
+      name: slime_Idle_2
       rect:
         serializedVersion: 2
-        x: 78
+        x: 124
         y: 0
-        width: 39
-        height: 36
+        width: 62.25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1634c5825f9a5ca43bc555d0d407b536
-      internalID: 1154783298
+      spriteID: 50f9f1cafa23d8641ab3280bcb3d8279
+      internalID: -1599759881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ratzombie_Run_3
+      name: slime_Idle_3
       rect:
         serializedVersion: 2
-        x: 117
+        x: 186
         y: 0
-        width: 39
-        height: 36
+        width: 62.25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef1537ae4a1b9fe4fa91f5e4bdee450f
-      internalID: -2073391830
+      spriteID: 99ba85e34b878174b9c90588f99b56eb
+      internalID: -1390185871
       vertices: []
       indices: 
       edges: []
@@ -196,7 +196,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c5b9bffc2a0942947a183452aada1b34
+    spriteID: 7b9cb0736f54d884a9aa8c1c4ae717c1
     internalID: 0
     vertices: []
     indices: 
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ratzombie_Run_0: 155087901
-      ratzombie_Run_1: -216849412
-      ratzombie_Run_2: 1154783298
-      ratzombie_Run_3: -2073391830
+      slime_Idle_0: 1041159918
+      slime_Idle_1: 2040349939
+      slime_Idle_2: -1599759881
+      slime_Idle_3: -1390185871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

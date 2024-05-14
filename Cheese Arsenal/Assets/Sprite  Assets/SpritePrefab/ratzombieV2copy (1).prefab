@@ -105,7 +105,7 @@ MonoBehaviour:
   maxHealthPoint: 0.94
   distance: 5.1
   deathEffect: {fileID: 3073379322691294683, guid: fbffe6fbb61fb794fb2bea072b8a7c3b, type: 3}
-  projectile: {fileID: 4539344021406845801, guid: 5d4ed8939bb4da0438a33567651fa5a1, type: 3}
+  projectile: {fileID: 4539344021406845801, guid: f98d68ca29b77614280179f4827bc953, type: 3}
 --- !u!50 &-7708509304313067468
 Rigidbody2D:
   serializedVersion: 4

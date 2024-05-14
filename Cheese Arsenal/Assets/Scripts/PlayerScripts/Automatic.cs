@@ -68,8 +68,9 @@ public class Automatic : MonoBehaviour
             canFire = false;
         }
 
-        if( Input.GetKeyDown(KeyCode.R))
+        if( Input.GetKeyDown(KeyCode.R) && currentMag > 0)
         {
+            canReload = false;
             StartCoroutine(Reload());
             return;
         }

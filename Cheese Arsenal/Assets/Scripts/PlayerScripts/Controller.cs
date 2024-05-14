@@ -7,7 +7,7 @@ public class Controller : MonoBehaviour
     // Movement Variables
     public float speed;
     public Transform weapon;
-    public float offset;
+    public float offset, forceDamping;
     bool facingRight;
 
     // Weapon Movement Variables
@@ -26,6 +26,7 @@ public class Controller : MonoBehaviour
     Vector2 lastMoveDirection;
     Vector2 movement;
     Vector2 mousePos;
+    Vector2 forceToApply;
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +50,14 @@ public class Controller : MonoBehaviour
         ProcessInput();
         Animate();
         
-        
+        Vector2 moveForce = movement * speed;
+        moveForce += forceToApply;
+        forceToApply /= forceDamping;
+        if (Mathf.Abs(forceToApply.x) <= .01f && Mathf.Abs(forceToApply.y) <= .01f)
+        {
+            forceToApply = Vector2.zero;
+        }
+        rb.velocity = moveForce;
         
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -72,6 +80,14 @@ public class Controller : MonoBehaviour
     
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Projectile"))
+        {
+            rb.velocity += new Vector2(-20, 0);
+            Destroy(collision.gameObject);
+        }
+    }
 
     void FixedUpdate()
     {

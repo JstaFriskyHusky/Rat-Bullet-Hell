@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponAimAutomatic : MonoBehaviour
+public class Automatic : MonoBehaviour
 {
     private Camera mainCam;
     private Vector3 mousePos;
@@ -53,7 +53,7 @@ public class WeaponAimAutomatic : MonoBehaviour
             
         }
 
-        if (Input.GetMouseButton(0) && canFire)
+        if (Input.GetMouseButton(0) && canFire && currentMag > 0)
         {
             
             Instantiate(bullet, gunPoint.position, Quaternion.identity);
@@ -61,6 +61,11 @@ public class WeaponAimAutomatic : MonoBehaviour
             animator.SetBool("Shooting", true);
             src.clip = shotSound;
             src.Play();
+        }
+
+        if (Input.GetKeyDown(KeyCode.R) && currentMag > 0)
+        {
+            canFire = false;
         }
 
         if( Input.GetKeyDown(KeyCode.R))

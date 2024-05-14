@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89dde4ae902347642836bfebb70975b2
-      internalID: -2119282168
+      spriteID: e8b7a4d333a3cf747b86e6ff1a723fca
+      internalID: -1777154721
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88efc4e857edee047ab5d652567370ac
-      internalID: -626541277
+      spriteID: 7e0ff5ef5e58671448ca6e0230b8d2c4
+      internalID: 981022937
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f06e86485eed20e40a788c76a6512789
-      internalID: -71635172
+      spriteID: 6de4f790c69721941a6b50aab65fceea
+      internalID: -1746702780
       vertices: []
       indices: 
       edges: []
@@ -200,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67fdd9dd54ab73241874150554eacff3
-      internalID: 1653217315
+      spriteID: 7c5b74c032b83d44891f070937eaf16d
+      internalID: 1478110643
       vertices: []
       indices: 
       edges: []
@@ -221,8 +221,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d47957dd69049f94b90e3e829b43efd0
-      internalID: -1695040399
+      spriteID: 68958f09713bc9343a81a57be4a72705
+      internalID: 1264896928
       vertices: []
       indices: 
       edges: []
@@ -230,7 +230,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 36b62edae54b4644ca4b0bed26396e53
+    spriteID: 6f7e3d21459d0d047a640ae786a427af
     internalID: 0
     vertices: []
     indices: 
@@ -238,11 +238,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mouse heavy pistol-Sheet_0: -2119282168
-      mouse heavy pistol-Sheet_1: -626541277
-      mouse heavy pistol-Sheet_2: -71635172
-      mouse heavy pistol-Sheet_3: 1653217315
-      mouse heavy pistol-Sheet_4: -1695040399
+      mouse heavy pistol-Sheet_0: -1777154721
+      mouse heavy pistol-Sheet_1: 981022937
+      mouse heavy pistol-Sheet_2: -1746702780
+      mouse heavy pistol-Sheet_3: 1478110643
+      mouse heavy pistol-Sheet_4: 1264896928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

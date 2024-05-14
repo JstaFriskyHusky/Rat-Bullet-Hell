@@ -39,7 +39,8 @@ public class Shotgun : MonoBehaviour
         foreach(Quaternion quat in pellets)
         pellets[i] = Random.rotation;
         GameObject p = Instantiate(pellet, gunPoint.position, Quaternion.identity);
-        p.transform.rotation = Quaternion.RotateTowards(p.transform.rotation, pellets[i], spreadAngle);        i++;
+        p.transform.rotation = Quaternion.RotateTowards(p.transform.rotation, pellets[i], spreadAngle);        
+        i++;
     }
 
 }

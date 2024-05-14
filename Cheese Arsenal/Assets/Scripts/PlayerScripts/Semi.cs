@@ -53,7 +53,7 @@ public class Semi : MonoBehaviour
             
         }
 
-        if (Input.GetMouseButtonDown(0) && canFire)
+        if (Input.GetMouseButtonDown(0) && canFire && currentMag > 0)
         {
             
             Instantiate(bullet, gunPoint.position, Quaternion.identity);

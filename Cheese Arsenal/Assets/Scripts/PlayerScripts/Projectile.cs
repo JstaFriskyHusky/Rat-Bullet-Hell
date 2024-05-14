@@ -47,6 +47,8 @@ public class Projectile : MonoBehaviour
         Enemies enemies = hitInfo.GetComponent<Enemies>();
         if (enemies != null) {
             enemies.TakeDamage(damage);
+            GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            Destroy(effect, 0.1f);
             Destroy(gameObject);
         }
 

@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 
     public int maxHealth = 100;
     public static int currentHealth;
+    public GameObject deathScreen;
     //float curTime = 0;
     //float nextDamage = 1;
 
@@ -91,7 +92,7 @@ public class Player : MonoBehaviour
 
     void Die()
     {
-        //Instantiate(deathScreen);
+        Instantiate(deathScreen);
         Destroy(gameObject);
     }
 

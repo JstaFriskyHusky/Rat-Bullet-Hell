@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyName: 
-  moveSpeed: 1.5
+  moveSpeed: 1
   maxHealthPoint: 40
   distance: 7
   projectile: {fileID: 3931345753436536030, guid: 0c9f08386562a0c45926572a2bca67f2, type: 3}

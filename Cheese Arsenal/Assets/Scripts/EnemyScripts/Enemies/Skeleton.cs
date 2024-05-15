@@ -15,13 +15,13 @@ public class Skeleton : Enemies
     protected override void Move()
     {
         base.Move();
-
-
+        
         // Patrol, move between 2 pts (BROKEN)
         // if(Vector2.Distance(transform.position, wayPoint01.position) < 0.01f)
         // {
         //     wayPointTarget = wayPoint02;
         // }
+
         // if(Vector2.Distance(transform.position, wayPoint02.position) < 0.01f)
         // {
         //     wayPointTarget = wayPoint01;

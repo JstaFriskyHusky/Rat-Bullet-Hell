@@ -15,7 +15,7 @@ public class Zombie : Enemies
 
     protected override void Attack()
     {
-        base.Attack();
+        shotTimer += Time.deltaTime;
         if(shotTimer > shotRate)
         {
             Instantiate(projectile, transform.position, Quaternion.identity);

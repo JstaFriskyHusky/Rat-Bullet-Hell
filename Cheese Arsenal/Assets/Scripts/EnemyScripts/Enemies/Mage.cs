@@ -2,17 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mage : MonoBehaviour
+public class Mage : Enemies
 {
-    // Start is called before the first frame update
-    void Start()
+    private float shotRate = 2.0f;
+    private float shotTimer;
+    public GameObject projectile;
+
+    protected override void Move()
     {
-        
+        base.Move();
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void Attack()
     {
-        
+        shotTimer += Time.deltaTime;
+        if(shotTimer > shotRate)
+        {
+            Instantiate(projectile, transform.position, Quaternion.identity);
+            shotTimer = 0;
+        }
     }
 }

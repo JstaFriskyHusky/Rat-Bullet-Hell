@@ -50,14 +50,6 @@ public class Controller : MonoBehaviour
         ProcessInput();
         Animate();
         
-        Vector2 moveForce = movement * speed;
-        moveForce += forceToApply;
-        forceToApply /= forceDamping;
-        if (Mathf.Abs(forceToApply.x) <= .01f && Mathf.Abs(forceToApply.y) <= .01f)
-        {
-            forceToApply = Vector2.zero;
-        }
-        rb.velocity = moveForce;
         
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);

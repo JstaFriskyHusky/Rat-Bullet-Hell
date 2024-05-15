@@ -68,10 +68,18 @@ public class Semi : MonoBehaviour
             canFire = false;
         }
         
-        if( Input.GetKeyDown(KeyCode.R))
+         if( Input.GetKeyDown(KeyCode.R))
         {
+        if (currentMag < maxMag)
+        {
+            
             StartCoroutine(Reload());
             return;
+        }
+        else
+        {
+            canReload = false;
+        }
         }
     }
 

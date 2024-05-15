@@ -352,7 +352,7 @@ MonoBehaviour:
   musicSrc: {fileID: 9221235663884313919}
   buttonSrc: {fileID: 8858657557733250211}
   sfx: {fileID: 0}
-  music: {fileID: 0}
+  music: {fileID: 8300000, guid: a2466a00ab0b28048897c51d10a3d189, type: 3}
 --- !u!1001 &1295864708063558940
 PrefabInstance:
   m_ObjectHideFlags: 0

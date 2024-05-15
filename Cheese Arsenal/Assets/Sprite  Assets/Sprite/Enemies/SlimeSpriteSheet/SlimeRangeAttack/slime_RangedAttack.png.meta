@@ -113,12 +113,12 @@ TextureImporter:
       name: slime_RangedAttack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 56
-        height: 32
+        x: 6
+        y: 5
+        width: 45
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: slime_RangedAttack_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 0
-        width: 56
-        height: 32
+        x: 61
+        y: 5
+        width: 44
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: slime_RangedAttack_2
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 56
-        height: 32
+        x: 117
+        y: 5
+        width: 43
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: slime_RangedAttack_3
       rect:
         serializedVersion: 2
-        x: 168
-        y: 0
-        width: 56
-        height: 32
+        x: 176
+        y: 5
+        width: 41
+        height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: slime_RangedAttack_4
       rect:
         serializedVersion: 2
-        x: 224
-        y: 0
-        width: 56
-        height: 32
+        x: 233
+        y: 5
+        width: 41
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: slime_RangedAttack_5
       rect:
         serializedVersion: 2
-        x: 280
-        y: 0
-        width: 56
-        height: 32
+        x: 285
+        y: 5
+        width: 46
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

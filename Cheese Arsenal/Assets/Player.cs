@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         //collision with enemies that have "Enemy" tag will cause player dmg
-        if(collision.tag == "Enemy")
+        if(collision.tag == "Enemy" || collision.tag == "Projectile")
         {
             currentHealth -= 20;
             healthBar.SetHealth(currentHealth);

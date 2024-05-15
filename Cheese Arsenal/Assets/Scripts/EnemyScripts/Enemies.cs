@@ -8,17 +8,19 @@ public class Enemies : MonoBehaviour
     [SerializeField] protected private float moveSpeed;
     private float healthPoint;
     [SerializeField] private float maxHealthPoint;
-
     protected private Transform target;
     [SerializeField] private float distance;
     private SpriteRenderer sp;
-    public GameObject deathEffect;
-    
+    private Collider2D c;
+    private Renderer ren;
+
     private void Start()
     {
         healthPoint = maxHealthPoint;
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         sp = GetComponent<SpriteRenderer>();
+        ren = GetComponent<Renderer>();
+        c = GetComponent<Collider2D>();
     }
     
     void Update()
@@ -49,6 +51,7 @@ public class Enemies : MonoBehaviour
         }
     }
 
+    // Allows enemy to take damage and die
     public void TakeDamage(int damage)
     {
         healthPoint -= damage;
@@ -59,13 +62,21 @@ public class Enemies : MonoBehaviour
         }
     }
 
-
+    // Runs when enemy dies
     void Die()
     {
-        // Create death effect, then destroy this object and its effect
-        GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
-        Destroy(effect, 0.1f);
+        Destroy(c);
+        SetMoveSpeed(0);
+        ren.material.SetColor("_Color", Color.red);
+        Invoke("Fade", 0.2f);
+        Destroy(gameObject, 0.3f);
+    }
+
+    // Enemy fades away after death
+    void Fade()
+    {
+        var col = ren.material.color.a;
+        col = 0.25f;
     }
 
     protected virtual void Attack()
@@ -73,8 +84,15 @@ public class Enemies : MonoBehaviour
         Debug.Log(enemyName + " is Attacking");
     }
 
+    // Set distance (used to maximize distance after enemy spots player)
     void SetDistance(float d)
     {
         distance = d;
+    }
+
+    // Set distance (used to make enemy stop moving when they die)
+    void SetMoveSpeed(float ms)
+    {
+        moveSpeed = ms;
     }
 }
